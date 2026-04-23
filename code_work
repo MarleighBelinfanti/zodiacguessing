@@ -1,0 +1,5 @@
+Year = input("What is your birth year? Ex. 2006")
+Month = input("What month were you born in? Ex. 11")
+Day = input("What day of the month were you born on? Ex.23")
+
+print(Day, Month, Year) 
