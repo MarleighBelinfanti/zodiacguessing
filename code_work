@@ -31,21 +31,26 @@ elif ((int(Month)==11 and int(Day) >= 22)or(int(Month)==12 and int(Day)<= 21)):
 
 print(sign)
 
-traits_options_1 = "Energetic, courageous, confident, and competitive."
-traits_options_2 = "Patient, reliable, practical, and determined."
-traits_options_3 = "Versatile, sociable, curious, and adaptable."
-traits_options_4 = "Sensitive, loyal, intuitive, and nurturing."
-traits_options_5 = "Dramatic, confident, generous, and enthusiastic."
-traits_options_6 = "Analytical, practical, diligent, and modest."
-traits_options_7 = "Diplomatic, cooperative, gracious, and fair-minded."
-traits_options_8 = "Passionate, resourceful, brave, and assertive."
-traits_options_9 = "Adventurous, optimistic, honest, and intellectual."
-traits_options_10 = "Responsible, disciplined, ambitious, and cautious."
-traits_options_11 = "Independent, original, humanitarian, and intellectual."
-traits_options_12 = "Compassionate, artistic, intuitive, and gentle."
+traits_options_1 = "Option 1: Energetic, courageous, confident, and competitive."
+traits_options_2 = "Option 2: Patient, reliable, practical, and determined."
+traits_options_3 = "Option 3: Versatile, sociable, curious, and adaptable."
+traits_options_4 = "Option 4: Sensitive, loyal, intuitive, and nurturing."
+traits_options_5 = "Option 5: Dramatic, confident, generous, and enthusiastic."
+traits_options_6 = "Option 6: Analytical, practical, diligent, and modest."
+traits_options_7 = "Option 7: Diplomatic, cooperative, gracious, and fair-minded."
+traits_options_8 = "Option 8: Passionate, resourceful, brave, and assertive."
+traits_options_9 = "Option 9: Adventurous, optimistic, honest, and intellectual."
+traits_options_10 = "Option 10: Responsible, disciplined, ambitious, and cautious."
+traits_options_11 = "Option 11: Independent, original, humanitarian, and intellectual."
+traits_options_12 = "Option 12: Compassionate, artistic, intuitive, and gentle."
 
 def select_traits():
     print(traits_options_1, traits_options_2, traits_options_3, traits_options_4, traits_options_5, traits_options_6, traits_options_7, traits_options_8, traits_options_9, traits_options_10, traits_options_11, traits_options_12)
-    traits = input("Type which set of characteristics is most like you!")
+    traits = input("Type which set of characteristics is most like you! Say the word option and the option number!")
     if traits == "Option 1":
        print("Your traits say you are: Aquarius")
+    elif traits == "Option 2":
+        print("Your traits say you are: Pisces")
+
+select_traits()
+
