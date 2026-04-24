@@ -51,6 +51,26 @@ def select_traits():
        print("Your traits say you are: Aquarius")
     elif traits == "Option 2":
         print("Your traits say you are: Pisces")
+    elif traits == "Option 3":
+        print("Your traits say you are: Aries")
+    elif traits == "Option 4":
+        print("Your traits say you are: Taurus")
+    elif traits == "Option 5":
+        print("Your traits say you are: Gemini")
+    elif traits == "Option 6":
+        print("Your traits say you are: Cancer")
+    elif traits == "Option 7":
+        print("Your traits say you are: Leo")
+    elif traits == "Option 8":
+        print("Your traits say you are: Virgo")
+    elif traits == "Option 9":
+        print("Your traits say you are: Libra")
+    elif traits == "Option 10":
+        print("Your traits say you are: Scorpio")
+    elif traits == "Option 11":
+        print("Your traits say you are: Sagittarius")
+    elif traits == "Option 12":
+        print("Your traits say you are: Capricorn")
 
 select_traits()
 
