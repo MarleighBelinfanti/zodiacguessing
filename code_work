@@ -45,7 +45,7 @@ traits_options_11 = "Option 11: Independent, original, humanitarian, and intelle
 traits_options_12 = "Option 12: Compassionate, artistic, intuitive, and gentle."
 
 def select_traits():
-    print(traits_options_1, traits_options_2, traits_options_3, traits_options_4, traits_options_5, traits_options_6, traits_options_7, traits_options_8, traits_options_9, traits_options_10, traits_options_11, traits_options_12)
+    print(traits_options_1 + \n traits_options_2 + \n traits_options_3 + \n traits_options_4 + \n traits_options_5 + \n traits_options_6 + \n traits_options_7 + \n traits_options_8 + \n traits_options_9 + \n traits_options_10 + \n traits_options_11 + \n traits_options_12)
     traits = input("Type which set of characteristics is most like you! Say the word option and the option number!")
     if traits == "Option 1":
        print("Your traits say you are: Aquarius")
