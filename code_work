@@ -31,9 +31,6 @@ elif ((int(Month)==11 and int(Day) >= 22)or(int(Month)==12 and int(Day)<= 21)):
 
 print(sign)
 
-
-traits = print("Type which set of characteristics is most like you!")
-
 traits_options_1 = "Energetic, courageous, confident, and competitive."
 traits_options_2 = "Patient, reliable, practical, and determined."
 traits_options_3 = "Versatile, sociable, curious, and adaptable."
@@ -47,3 +44,8 @@ traits_options_10 = "Responsible, disciplined, ambitious, and cautious."
 traits_options_11 = "Independent, original, humanitarian, and intellectual."
 traits_options_12 = "Compassionate, artistic, intuitive, and gentle."
 
+def select_traits():
+    print(traits_options_1, traits_options_2, traits_options_3, traits_options_4, traits_options_5, traits_options_6, traits_options_7, traits_options_8, traits_options_9, traits_options_10, traits_options_11, traits_options_12)
+    traits = input("Type which set of characteristics is most like you!")
+    if traits == "Option 1":
+       print("Your traits say you are: Aquarius")
